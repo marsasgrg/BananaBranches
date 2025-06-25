@@ -1,5 +1,5 @@
-export function setUpQuestions(element) {
-   let counter = 0;
+export function setUpQuestions() {
+
 
   const pressButton = value => {
     console.log(value);
@@ -13,5 +13,5 @@ export function setUpQuestions(element) {
 
 }
 
-setUpQuestions(document.getElementById('counter-value'));
+setUpQuestions();
 
